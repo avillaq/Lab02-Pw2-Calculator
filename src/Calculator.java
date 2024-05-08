@@ -16,5 +16,8 @@ public class Calculator {
         int resultado = a / b;
         return resultado; 
     }
-    int mod(int a, int b){ return 0; } 
+    int mod(int a, int b){ 
+        int resultado = a % b;
+        return resultado; 
+    } 
 }
